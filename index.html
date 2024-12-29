@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styleLoginv2.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <img src="logoUtama.png" alt="" />
+      </div>
+    </div>
+
+    <!-- body login -->
+    <div class="bodyLogin">
+      <!-- container Login -->
+      <div class="login-box">
+        <!-- isi content login header -->
+        <div class="login-header">
+          <header>Masuk ke Akun</header>
+          <p>Yuk, lanjutin belajarmu di videobelajar</p>
+        </div>
+        <!-- box isi content login -->
+        <div class="body-input">
+          <!-- box isi content inputan -->
+          <div class="box-input">
+            <!-- input email -->
+            <div class="input-box">
+              <label for="email">E-mail <span>*</span></label>
+              <input type="text" class="input-field" id="email" required />
+            </div>
+            <!-- input Password -->
+            <div class="input-box">
+              <label for="password" class="lPass">Password <span>*</span></label> <br />
+              <input type="password" class="input-field" id="password" required/>
+              <img class="eye" src="eye.png">
+            </div>
+            <section id="lupa">
+              <a href="#" class="forget">Lupa Password?</a>
+            </section>
+          </div>
+
+          <!-- box content submit -->
+          <div class="box-submit">
+            <div class="input-box">
+              <button type="submit" onclick="document.location='beranda.html'"class="masuk">Masuk</button>
+            </div>
+            <div class="input-box">
+              <button type="submit" onclick="document.location='daftar.html'" class="daftar">Daftar</button>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="middle-text">
+            <hr />
+            <p class="orText">atau</p>
+          </div>
+          <div class="social">
+            <button
+              type="submit" onclick="document.location='#'"class="inGoogle">
+              <img src="logoGoogle.png" alt="" class="logoG" />
+              <p>Masuk dengan Google</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

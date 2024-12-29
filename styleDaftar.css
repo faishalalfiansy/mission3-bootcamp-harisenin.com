@@ -1,0 +1,310 @@
+*{
+  box-sizing: border-box;
+  font-family: 'DM Sans';
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+  background-color: #fcf8ca;
+}
+
+.navbar {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  border-bottom: 1px solid #3a35411f;
+  padding: 12px 120px 12px 120px;
+  box-shadow: 1px 0px 1px #3a35411f;
+}
+/* mengatur body main untuk konten di tengah */
+.bodyIsi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 994px;
+  padding: 64px 120px 64px 120px;
+  gap: 36;
+}
+/*  */
+/* mengatur ukuran box konten */
+.boxBodyDaftar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 590px;
+  height: 893px;
+  padding: 36px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  gap: 36px;
+}
+/*  */
+/* mengatur lebar box isi content */
+.boxIsi {
+  width: 525px;
+  height: 815px;
+}
+/*  */
+/* mengatur isi content header */
+.box-header {
+  width: 100%;
+  height: 75px;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box-header > header {
+  font-size: 32px;
+  line-height: 35.2px;
+}
+
+.box-header > p {
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #333333ad;
+}
+/* akhir isi content header */
+
+/* isi content inputan */
+.box-input {
+  position: relative;
+  width: 100%;
+  height: 482px;
+  margin-top: 30px;
+}
+
+.konten-input1 .input-field {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  border: 2px solid #3a35411f;
+  border-radius: 6px;
+  padding: 4px 10px 4px 10px;
+  margin-top: 6px;
+}
+
+#bintang {
+  color: red;
+}
+
+#judul {
+  color: #333333ad;
+}
+
+.konten-input1 {
+  width: 100%;
+  height: 76px;
+  margin: 10px 0px 10px 0px;
+  gap: 10px;
+}
+
+.box-nomor {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  display: flex;
+}
+
+.bagian-4 {
+  width: 7%;
+  height: 48px;
+}
+
+.lkode {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3a35411f;
+  border-top-left-radius: 6px;
+  padding: 4px 10px 4px 10px;
+  margin-top: 6px;
+  margin-right: 0px;
+}
+
+.bagian-2 {
+  width: 20%;
+  height: 48px;
+  margin-right: 15%;
+}
+
+#kode {
+  width: 100%;
+  height: 48px;
+  font-family: roboto;
+  padding: 4px 10px 4px 10px;
+  cursor: pointer;
+  line-height: 22.4px;
+  border: 2px solid #3a35411f;
+  border-top-right-radius: 6px;
+  padding: 4px 10px 4px 10px;
+  margin-top: 6px;
+  margin-left: 0px;
+  border-left: 0px;
+}
+
+.bagian-3 {
+  width: 60%;
+  height: 48px;
+}
+
+.input-nomor {
+  width: 100%;
+  height: 48px;
+  border: 2px solid #3a35411f;
+  border-radius: 6px;
+  padding: 4px 10px 4px 10px;
+  margin-top: 6px;
+}
+
+.eye {
+  position: absolute;
+  left: 95%;
+  transform: translate(-80%, 70%);
+  cursor: pointer;
+}
+
+#lupa {
+  position: relative;
+  text-align: right;
+}
+
+.forget {
+  text-decoration: none;
+  color: #333333ad;
+}
+
+/* mengatur box submit */
+.box-submit {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  gap: 16px;
+}
+
+.box-submit .input-box {
+  width: 100%;
+  height: 42px;
+}
+
+.box-submit > .input-box > button {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+}
+
+.box-submit > .input-box > .masuk {
+  background-color: #3ecf4c;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.box-submit > .input-box > .daftar {
+  background-color: #e2fcd9cc;
+  color: #3ecf4c;
+  cursor: pointer;
+}
+
+/* mengatur atau hr */
+
+.middle-text {
+  position: relative;
+  margin: 30px 0;
+  width: 100%;
+  height: 22px;
+  gap: 10px;
+}
+
+.orText {
+  position: absolute;
+  margin: 0px;
+  padding: 0px 10px 0px 8px;
+  left: 50%;
+  transform: translate(-50%, -107%);
+  background-color: #ffffff;
+}
+
+.middle-text > hr {
+  border: 2px solid #f1f1f1;
+}
+
+/* masuk dengan google */
+
+.social {
+  width: 100%;
+  height: 42px;
+}
+
+.social > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5;
+  background-color: #ffffff;
+  width: 100%;
+  height: 42px;
+  padding: 0px 16px;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.inGoogle img {
+  width: 30px;
+  height: 30px;
+}
+
+.inGoogle p {
+  padding: 6px 0px;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding: 16px 24px 16px 24px;
+    border-top: 1px solid #3e434a4f;
+    border-bottom: 1px solid #3e434a4f;
+    box-shadow: 4px 8px 12px #3e434a26;
+  }
+  .bodyIsi {
+    padding: 28px 20px 28px 20px;
+  }
+  .boxBodyDaftar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 893px;
+    padding: 36px;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    gap: 36px;
+  }
+  .boxIsi {
+    width: 280px;
+    height: 815px;
+  }
+  .bagian-2 {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .bagian-4{
+    width: 15%;
+  }
+  #kode{
+    padding: 0px 10px;
+  }
+  
+}
