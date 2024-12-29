@@ -481,7 +481,7 @@ hr{
   .card{
     display: flex;
     flex-wrap: wrap;
-    padding: 16px;
+    padding: 16px 16px 16px 16px;
     margin-right: 10px;
     margin-left: 10px;
     gap: 8px;
@@ -521,7 +521,7 @@ hr{
   .info{
     display: flex;
     flex-wrap: wrap;
-    height: 37px;
+    height: 39px;
     overflow: hidden;
   }
   .info h5{
