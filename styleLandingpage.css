@@ -521,7 +521,7 @@ hr{
   .info{
     display: flex;
     flex-wrap: wrap;
-    height: 39px;
+    height: 40px;
     overflow: hidden;
   }
   .info h5{
