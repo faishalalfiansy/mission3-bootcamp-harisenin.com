@@ -476,16 +476,17 @@ hr{
     width: 95%;
   }
   .card-container{
+    justify-content: center;
     gap: 10px;
   }
   .card{
     display: flex;
     flex-wrap: wrap;
     padding: 17px 17px 17px 17px;
-    margin-right: 10px;
-    margin-left: 2px;
+    /* margin-right: 10px;
+    margin-left: 2px; */
     gap: 8px;
-    width: 360px;
+    width: 320px;
     height: 147px;
   }
   .img-judul{
