@@ -482,6 +482,8 @@ hr{
     display: flex;
     flex-wrap: wrap;
     padding: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
     gap: 8px;
     width: 360px;
     height: 147px;
