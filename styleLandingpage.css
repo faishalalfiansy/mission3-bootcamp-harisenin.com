@@ -159,14 +159,12 @@ body {
 }
 
 .card{
-  display: flex;
-    flex-wrap: wrap;
-    padding: 17px 17px 17px 17px;
-    margin-right: 10px;
-    margin-left: 5px;
-    gap: 8px;
-    width: 320px;
-    height: 147px;
+  width: 32.4%;
+  height: 426px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
 }
 
 .img-judul{
@@ -485,7 +483,7 @@ hr{
     flex-wrap: wrap;
     padding: 17px 17px 17px 17px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 2px;
     gap: 8px;
     width: 360px;
     height: 147px;
